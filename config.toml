@@ -1,0 +1,3 @@
+baseURL = "http://blog.acoustid.org/"
+languageCode = "en-us"
+title = "AcoustID Blog"
