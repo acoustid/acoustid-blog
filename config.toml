@@ -1,3 +1,8 @@
-baseURL = "http://blog.acoustid.org/"
+baseURL = "https://blog.acoustid.org/"
 languageCode = "en-us"
-title = "AcoustID Blog"
+title = "AcoustID News and Updates"
+theme = "mini"
+
+[params]
+  avatarLink = "https://blog.acoustid.org/"
+  copyright = " "

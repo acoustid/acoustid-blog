@@ -1,8 +1,6 @@
 body {
   line-height: 1;
-  font-family: 'Open Sans', sans;
-  font-weight: 400;
-  font-size: 14px;
+  font: normal 15px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #404040;
   line-height: 1.75;
   letter-spacing: 0.008em;
@@ -10,12 +8,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #0145aa;
+  color: #5badf0;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: #aa0000;
+  color: #0366d6;
 }
 
 /* markdown content styles */
@@ -142,15 +139,13 @@ nav.navigation a {
   top: 8px;
   right: 6px;
   padding: 8px 12px;
-  color: #0145aa;
+  color: #5badf0;
   font-size: 13px;
   line-height: 1.35;
   border-radius: 3px;
 }
-
 nav.navigation a:hover {
-  color: #aa0000;
-  text-decoration: none;
+  color: #0366d6;
 }
 
 nav.navigation a.button {
@@ -205,9 +200,6 @@ nav.navigation a.button {
   margin: 20px auto;
   font-size: 13px;
 }
-.powerby a {
-  color: #888;
-}
 #footer .split {
   cursor: pointer;
 }
@@ -242,8 +234,8 @@ nav.navigation a.button {
 .profile h1 {
   font-weight: 400;
   letter-spacing: 0px;
-  font-size: 16px;
-  color: #777;
+  font-size: 20px;
+  color: #404040;
   margin-bottom: 0;
   margin-top: 0;
 }
