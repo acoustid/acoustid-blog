@@ -6,6 +6,8 @@ theme = "mini"
 [params]
   avatarLink = "https://blog.acoustid.org/"
   copyright = " "
+  facebookPixelID = "1567565503441970"
+  enableFacebookPixel = true
   enableFacebookSDK = true
   enableFacebookComments = true
 
