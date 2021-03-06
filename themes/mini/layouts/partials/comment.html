@@ -1,6 +1,7 @@
 {{ if .Site.Params.enableComments }} 
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="RP05NDBV"></script>
   <div id="comment">
-    <!-- https://gohugo.io/templates/internal/#use-the-disqus-template -->
-    {{ template "_internal/disqus.html" . }}
+    <div class="fb-comments" data-href="{{ .Permalink }}" data-width="680" data-numposts="5"></div>
   </div>
 {{ end }}

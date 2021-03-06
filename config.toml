@@ -6,3 +6,4 @@ theme = "mini"
 [params]
   avatarLink = "https://blog.acoustid.org/"
   copyright = " "
+  enableComments = true
