@@ -1,6 +1,4 @@
-{{ if .Site.Params.enableComments }} 
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="RP05NDBV"></script>
+{{ if .Site.Params.enableFacebookComments }} 
   <div id="comment">
     <div class="fb-comments" data-href="{{ .Permalink }}" data-width="100%" data-numposts="5"></div>
   </div>

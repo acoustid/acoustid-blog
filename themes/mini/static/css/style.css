@@ -220,6 +220,10 @@ nav.navigation a.button {
   margin: 0 4px;
 }
 
+#social a:hover {
+  text-decoration: none;
+}
+
 /* main content */
 .main {
   width: 100%;

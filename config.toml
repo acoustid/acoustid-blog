@@ -6,4 +6,10 @@ theme = "mini"
 [params]
   avatarLink = "https://blog.acoustid.org/"
   copyright = " "
-  enableComments = true
+  enableFacebookSDK = true
+  enableFacebookComments = true
+
+[social]
+  facebook = "https://www.facebook.com/acoustid"
+  twitter = "https://twitter.com/acoustid"
+  github = "https://github.com/acoustid"
