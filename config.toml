@@ -10,6 +10,7 @@ theme = "mini"
   enableFacebookPixel = true
   enableFacebookSDK = true
   enableFacebookComments = true
+  enableRSS = true
 
 [social]
   facebook = "https://www.facebook.com/acoustid"
