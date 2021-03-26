@@ -7,6 +7,14 @@
         <span>
           {{ .Date.Format "Jan 2, 2006 15:04" }}
         </span>
+        {{ if .Params.author }}
+        <span class="split">
+          ·
+        </span>
+        <span>
+          {{ .Params.author }}
+        </span>
+        {{ end }}
         <span class="split">
           ·
         </span>
