@@ -7,6 +7,7 @@ theme = "mini"
   avatarLink = "https://blog.acoustid.org/"
   copyright = " "
   facebookPixelID = "1567565503441970"
+  facebookAppID = "800120030601175"
   enableFacebookPixel = true
   enableFacebookSDK = true
   enableFacebookComments = true
